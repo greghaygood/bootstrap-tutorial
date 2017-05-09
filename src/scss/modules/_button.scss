@@ -1,0 +1,15 @@
+
+.button {
+	color: red;
+}
+
+.button--active {
+	color: pink;
+}
+
+.button {
+
+	&.is-active {
+		color: pink;
+	}
+}
